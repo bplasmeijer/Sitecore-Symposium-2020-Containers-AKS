@@ -56,7 +56,7 @@ Set-up cluster
 Create solution
 - Create Kubernetes namespace
 - Please check ```1.2.2 Kubernetes secrets``` in the [Installation Guide for Production Environment with Kubernetes](https://dev.sitecore.net/~/media/D6D6C46E2A89478D92CA10BCDD19BBEF.ashx)
-- Set your own secrets based on the guide.
+- **Set your own secrets based on the guide.**
 ```
 .\5.CreateNamespaceAndSecrets.ps1
 ```

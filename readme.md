@@ -43,8 +43,8 @@ Create the AKS Kubernetes cluster:
 .\2.CreateAKS.ps1 -Region -ResourceGroup -AksName -AcrName -AzureWindowsPassword   
 ```
 Install the tools:
-- kubectl (Kubernetes CLI)
-- Helm (Package manager CLI)
+- [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/) (Kubernetes CLI)
+- [Helm](https://helm.sh/docs/intro/install/) (Package manager CLI)
 ```
 .\3.InstallTools.ps1 -Region -ResourceGroup -AksName -AcrName 
 ```

@@ -21,7 +21,7 @@ $current = Get-Location
 # helm version
 $helmVersion = "3.3.4"
 # get AKS version
-$aksVersion = "1.17.11" #$(az aks get-versions -l $Region --query 'orchestrators[-1].orchestratorVersion' -o tsv)
+$aksVersion = "1.17.11" # $(az aks get-versions -l $Region --query 'orchestrators[-1].orchestratorVersion' -o tsv)
 
 # # install helm
  Write-Host "--- install Helm ---" -ForegroundColor Blue
